@@ -19,5 +19,64 @@ ul li
 img
   max-width: 100%
 
+body
+  font-family: 'Roboto', sans-serif
+  font-size: 16px
+  line-height: 26px
+
 .wrapper
   overflow: hidden
+  display: flex
+  flex-direction: column
+  flex: auto
+
+.container
+  max-width: 1186px
+  margin: 0 auto
+
+header
+  background-color: #1777ce
+  padding: 18px 10px
+  .container
+    display: flex
+    flex-direction: column
+
+.header-top
+  display: flex
+  justify-content: space-between
+  align-items: center
+  flex-wrap: wrap
+
+nav
+  width: 75%
+  display: flex
+  justify-content: space-between
+  align-items: center
+  a
+    font-size: 18px
+    color: #fff
+  .logo
+    flex-grow: 1
+
+
+@media (max-width: 990px)
+  nav
+    a
+      font-size: 16px
+
+@media (max-width: 840px)
+  nav
+    flex-wrap: wrap
+    justify-content: space-evenly
+    a
+      margin-right: 3%
+
+@media (max-width: 500px)
+  .header-top
+    flex-direction: column
+    .logo
+      border-bottom: 2px solid white
+      margin-bottom: 5%
+
+  nav
+    flex-direction: column
