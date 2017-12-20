@@ -128,19 +128,20 @@ h1 {
       margin-bottom: 5%; }
 
   nav {
-    flex-direction: column; } }
-.heading-block {
-  flex-direction: column; }
+    flex-direction: column; }
 
-.left-block {
-  text-align: center; }
+  .heading-block {
+    flex-direction: column; }
 
-h1:before,
-.h1-after:after {
-  display: none; }
+  .left-block {
+    text-align: center; }
 
-.slogan {
-  margin-top: 5%;
-  margin-bottom: 5%; }
+  h1:before,
+  .h1-after:after {
+    display: none; }
+
+  .slogan {
+    margin-top: 5%;
+    margin-bottom: 5%; } }
 
 /*# sourceMappingURL=styles.css.map */
