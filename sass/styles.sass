@@ -36,7 +36,7 @@ body
 
 header
   background-color: #1777ce
-  padding: 18px 10px
+  padding: 18px 10px 0 18px
   .container
     display: flex
     flex-direction: column
@@ -46,6 +46,7 @@ header
   justify-content: space-between
   align-items: center
   flex-wrap: wrap
+  margin-bottom: 3%
 
 nav
   width: 75%
@@ -55,14 +56,63 @@ nav
   a
     font-size: 18px
     color: #fff
-  .logo
-    flex-grow: 1
+    &:hover
+      font-weight: bold
 
+.heading-block
+  display: flex
+  justify-content: space-around
+  align-items: center
+
+h1
+  font-size: 78px
+  line-height: 85px
+  color: white
+  font-weight: 500
+  margin-top: 25%
+
+h1:before
+  content: ""
+  display: block
+  width: 70px
+  height: 10px
+  border-top: 2px solid white
+
+
+.h1-after
+    font-size: 22px
+    text-transform: uppercase
+    letter-spacing: 0.05em
+    color: white
+
+.h1-after:after
+  content: ""
+  display: block
+  width: 70px
+  height: 10px
+  border-bottom: 2px solid white
+
+.slogan
+  font-size: 18px
+  color: rgba(255,255,255,0.6)
+  margin-top: 33%
+
+
+.right-block
+  margin-bottom: -9%
 
 @media (max-width: 990px)
   nav
     a
       font-size: 16px
+
+h1
+  margin-top: 0
+
+.slogan
+  text-align: center
+  margin-top: 10%
+
 
 @media (max-width: 840px)
   nav
@@ -70,6 +120,12 @@ nav
     justify-content: space-evenly
     a
       margin-right: 3%
+
+h1
+  font-size: 65px
+
+.h1-after
+  font-size: 20px
 
 @media (max-width: 500px)
   .header-top
@@ -80,3 +136,17 @@ nav
 
   nav
     flex-direction: column
+
+.heading-block
+  flex-direction: column
+
+.left-block
+  text-align: center
+
+h1:before,
+.h1-after:after
+  display: none
+
+.slogan
+  margin-top: 5%
+  margin-bottom: 5%
