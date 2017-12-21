@@ -315,6 +315,9 @@ h3:after
 .screen-7
   background-color: #1777ce
   text-align: center
+  .container
+    display: flex
+    flex-direction: column
   h2
     padding-top: 6%
     font-size: 28px
@@ -330,6 +333,55 @@ h3:after
   margin-top: 2%
   margin-bottom: -11%
 
+footer
+  h2
+    margin-top: 13%
+    text-align: center
+    font-size: 28px
+    line-height: 30px
+    text-transform: uppercase
+    margin-bottom: 3%
+
+.contact-form
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  max-width: 800px
+  padding: 0 20px
+  margin: auto
+  margin-bottom: 12%
+
+input
+  padding: 12px 20px
+  border: 2px solid #0b6ec7
+  border-radius: 4px
+  font-size: 16px
+  line-height: 26px
+  font-weight: 500
+  margin-bottom: 2%
+
+.formline-1
+  width: 49%
+
+.formline-2
+  width: 100%
+
+button
+  background-color: #0b6ec7
+  border-radius: 4px
+  padding: 12px 0
+  width: 185px
+  border: none
+  margin: auto
+  color: rgba(255,255,255,0.6)
+  text-transform: uppercase
+  font-size: 16px
+  line-height: 26px
+  font-weight: 500
+
+button:hover
+  font-weight: bold
+  cursor: pointer
 
 @media (max-width: 990px)
   nav
@@ -405,6 +457,9 @@ h3:after
   .about-block-left
     text-align: right
 
+  .formline-1
+    width: 100%
+
 
 
 
@@ -464,3 +519,6 @@ h3:after
 
   .about-block-right
     text-align: right
+
+  button
+    width: 100%
