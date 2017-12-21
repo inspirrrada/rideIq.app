@@ -110,7 +110,7 @@ h1:before
 .introduction-text
   max-width: 76%
   h2
-    font-size: 26px
+    font-size: 28px
     text-transform: uppercase
     margin-top: 5%
   h3
@@ -142,6 +142,71 @@ h3:after
   height: 15px
   border-bottom: 2px solid black
 
+.screen-3
+  background-color: #1777ce
+
+.market-text
+  text-align: center
+  max-width: 65%
+  margin-bottom: 7%
+
+.market-block
+  padding: 70px 83px 0 70px
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  align-items: center
+  h2
+    font-size: 28px
+    text-transform: uppercase
+    color: white
+    margin-bottom: 3%
+
+.market-preview
+  font-size: 14px
+  line-height: 24px
+  color: white
+
+
+.market-statistic
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  align-items: flex-start
+
+.market-fact
+  text-align: center
+  width: 26%
+  margin-bottom: 8%
+  h4
+    font-size: 24px
+    line-height: 24px
+    color: white
+  p
+    color: white
+    margin-top: 4%
+
+  h4:after
+    content: ""
+    display: block
+    margin: auto
+    height: 15px
+    width: 40px
+    border-bottom: 2px solid white
+
+.coins
+  font-size: 0
+  line-height: 0
+
+.coins:after
+  content: ""
+  display: block
+  margin: auto
+  height: 15px
+  width: 40px
+  border-bottom: 2px solid white
+
+
 @media (max-width: 990px)
   nav
     a
@@ -171,6 +236,16 @@ h3:after
   .introduction-block
     flex-direction: column-reverse
 
+  .market-text
+    max-width: 100%
+
+  .market-fact
+    width: 50%
+    h4
+      font-size: 22px
+    p
+      font-size: 14px
+
 @media (max-width: 500px)
   .header-top
     flex-direction: column
@@ -194,3 +269,9 @@ h3:after
   .slogan
     margin-top: 5%
     margin-bottom: 5%
+
+  .market-block
+    padding: 20px 20px 0 20px
+
+  .market-fact
+    width: 100%
