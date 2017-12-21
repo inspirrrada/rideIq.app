@@ -179,6 +179,7 @@ h3:after {
     line-height: 24px;
     color: white; }
   .market-fact p {
+    font-size: 18px;
     color: white;
     margin-top: 4%; }
   .market-fact h4:after {
@@ -200,6 +201,24 @@ h3:after {
   height: 15px;
   width: 40px;
   border-bottom: 2px solid white; }
+
+.opportunity-block {
+  padding: 40px 103px 0;
+  display: flex;
+  justify-content: space-between; }
+
+.opportunity-text {
+  max-width: 76%; }
+  .opportunity-text h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-top: 5%; }
+  .opportunity-text p {
+    margin-top: 4%; }
+
+.opportunity-img {
+  margin-left: 4%;
+  text-align: center; }
 
 @media (max-width: 990px) {
   nav a {
@@ -235,7 +254,14 @@ h3:after {
     .market-fact h4 {
       font-size: 22px; }
     .market-fact p {
-      font-size: 14px; } }
+      font-size: 14px; }
+
+  .opportunity-block {
+    flex-direction: column; }
+
+  .opportunity-text {
+    max-width: 100%;
+    text-align: center; } }
 @media (max-width: 500px) {
   .header-top {
     flex-direction: column; }
@@ -264,6 +290,9 @@ h3:after {
     padding: 20px 20px 0 20px; }
 
   .market-fact {
-    width: 100%; } }
+    width: 100%; }
+
+  .opportunity-block {
+    padding: 20px 20px 0 20px; } }
 
 /*# sourceMappingURL=styles.css.map */

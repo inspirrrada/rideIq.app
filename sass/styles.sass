@@ -183,6 +183,7 @@ h3:after
     line-height: 24px
     color: white
   p
+    font-size: 18px
     color: white
     margin-top: 4%
 
@@ -206,6 +207,24 @@ h3:after
   width: 40px
   border-bottom: 2px solid white
 
+.opportunity-block
+  padding: 40px 103px 0
+  display: flex
+  justify-content: space-between
+  //align-items: center
+
+.opportunity-text
+  max-width: 76%
+  h2
+    font-size: 28px
+    text-transform: uppercase
+    margin-top: 5%
+  p
+    margin-top: 4%
+
+.opportunity-img
+  margin-left: 4%
+  text-align: center
 
 @media (max-width: 990px)
   nav
@@ -246,6 +265,13 @@ h3:after
     p
       font-size: 14px
 
+  .opportunity-block
+    flex-direction: column
+
+  .opportunity-text
+    max-width: 100%
+    text-align: center
+
 @media (max-width: 500px)
   .header-top
     flex-direction: column
@@ -275,3 +301,6 @@ h3:after
 
   .market-fact
     width: 100%
+
+  .opportunity-block
+    padding: 20px 20px 0 20px
