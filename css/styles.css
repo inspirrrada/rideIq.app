@@ -305,6 +305,24 @@ h3:after {
 .about-block-right p {
   margin-top: 8%; }
 
+.screen-7 {
+  background-color: #1777ce;
+  text-align: center; }
+  .screen-7 h2 {
+    padding-top: 6%;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 2%; }
+  .screen-7 p {
+    color: white;
+    max-width: 72%;
+    margin: auto; }
+
+.model-img {
+  margin-top: 2%;
+  margin-bottom: -11%; }
+
 @media (max-width: 990px) {
   nav a {
     font-size: 16px; }
