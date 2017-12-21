@@ -281,7 +281,13 @@ h3:after {
 
   .slogan {
     text-align: center;
-    margin-top: 10%; } }
+    margin-top: 10%; }
+
+  .product-preview {
+    max-width: 80%; }
+
+  .product-block {
+    padding: 75px 30px 0 30px; } }
 @media (max-width: 840px) {
   nav {
     flex-wrap: wrap;
@@ -313,7 +319,14 @@ h3:after {
 
   .opportunity-text {
     max-width: 100%;
-    text-align: center; } }
+    text-align: center; }
+
+  .product-preview {
+    max-width: 100%;
+    margin-bottom: 7%; }
+
+  .product-info {
+    flex-direction: column-reverse; } }
 @media (max-width: 500px) {
   .header-top {
     flex-direction: column; }
@@ -345,6 +358,16 @@ h3:after {
     width: 100%; }
 
   .opportunity-block {
-    padding: 20px 20px 0 20px; } }
+    padding: 20px 20px 0 20px; }
+
+  .product-idea {
+    max-width: 90%;
+    margin-bottom: 5%; }
+
+  .product-info {
+    flex-direction: column; }
+
+  .product-img {
+    margin-bottom: 0; } }
 
 /*# sourceMappingURL=styles.css.map */
